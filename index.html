@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b44c5fcb5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Intodevlope</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Top design -->
+      <header>
+        <div>
+          <a href="#" class="logo">Into<span>dev</span><span>lope.</span></a>
+
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+        <nav class="nav-bar">
+          <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#services" class="active">Services</a></li>
+            <li><a href="#contact" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- home section design -->
+      <section class="home" id="home">
+        <div class="home-text">
+          <div class="Intro">
+            <span class="one">Hey there!</span>
+          </div>
+          <h1>Parishmita</h1>
+          <h3>Full-stack<span>Devloper</span></h3>
+          <p>
+            I'm an India based web developer and designer. Currently a
+            student<br />
+            pursuing BCA. I build anything from mobile<br />
+            application to websites. My passion is to simply bring the best user
+            experience to<br />
+            your screen.
+          </p>
+          <div class="bgimg"><img src="./images/Group 18.png" /></div>
+        </div>
+      </section>
+
+      <!-- about section design -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./images/about.jpg" />
+        </div>
+        <div class="about-te">
+          <h2>About <span>Me</span></h2>
+          <h4>Full-stack developer and designer!</h4>
+          <p>
+            I'm an India based web developer and designer. Currently a student
+            pursuing BCA. I build anything <br />from mobile application to
+            websites. My passion is to simply bring the best user experience<br />
+            to your screen.
+          </p>
+          <button class="abtn">About me</button>
+        </div>
+      </section>
+      <!-- service section design -->
+      <section class="services" id="services">
+        <div class="main-te">
+          <p>How may I help you?</p>
+          <h2><span>My</span> Services</h2>
+        </div>
+        <div class="service-content">
+          <div class="box">
+            <div class="s-icon">
+              <i class="fa-solid fa-code fa-lg"></i>
+            </div>
+            <h3>Web Devlopment</h3>
+            <p>
+              I create creative and resposive website to bring the <br />
+              best user experience to your screen.
+            </p>
+          </div>
+          <div class="box">
+            <div class="s-icon">
+              <i class="fa-solid fa-pen-ruler fa-lg"></i>
+            </div>
+            <h3>Web Design</h3>
+            <p>
+              I create resposive and creative design that suits user type. Every
+              design needs<br />
+              wireframes and prototyping to make it understandable and resposive
+            </p>
+          </div>
+          <div class="box">
+            <div class="s-icon">
+              <i class="fa-solid fa-pen-to-square fa-lg"></i>
+            </div>
+            <h3>Graphic Design</h3>
+            <p>
+              Templates, fonts, graphics, etc design everything from your
+              intagram <br />handel to your portfolio template
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section class="contact" id="contact">
+        <div class="contact-text">
+          <div class="contact-heading cnt">
+            <h2>Contact<span>Me</span></h2>
+            <h4>If you have any questions in your mind.</h4>
+            <p>Lets have a cup of responsivity with a spoon of creativity.</p>
+          </div>
+          <div class="list cnt">
+            <ul>
+              <li><a href="tel:8812992031">(91+) 8812992031</a></li>
+              <li>
+                <a href="mailto:ghoshparishmita19@gmail.com"
+                  >ghoshparishmita19@gmail.com</a
+                >
+              </li>
+              <li>Pachpota, Garia Kolkata, West bengal</li>
+            </ul>
+          </div>
+          <div class="contact-icon cnt">
+            <i
+              class="fa-brands fa-linkedin-in"
+              style="font-size: 20px; margin: 5px"
+            >
+            </i>
+            <i
+              class="fa-brands fa-square-facebook"
+              style="font-size: 20px; margin: 5px"
+            ></i>
+            <i
+              class="fa-brands fa-square-github"
+              style="font-size: 20px; margin: 5px"
+            ></i>
+            <i
+              class="fa-brands fa-twitter"
+              style="font-size: 20px; margin: 5px"
+            ></i>
+            <i
+              class="fa-solid fa-envelope"
+              style="font-size: 20px; margin: 5px"
+            ></i>
+          </div>
+          <div class="contact-form cnt">
+            <form action="">
+              <input type="name" placeholder="Your name" required />
+              <input type="email" placeholder="Your email address" required />
+              <input type="mobile" placeholder="Your mobile number" required />
+              <textarea
+                name=""
+                id=""
+                rows="10"
+                cols="35"
+                placeholder="Wanna build something?"
+              ></textarea>
+
+              <a href="mailto:ghoshparishmita19@gmail.com"
+                ><input
+                  type="button"
+                  value="Send Message"
+                  class="button required"
+              /></a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end section -->
+    <footer class="end">
+      <div><p>@copyright 2023 intodevlope.</p></div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navList = document.querySelector(".navlist");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navList.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
